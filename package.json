@@ -1,0 +1,50 @@
+{
+  "name": "frontmatter-loader",
+  "version": "0.0.1",
+  "description": "webpack frontmatter loader; Typically used with markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node ./node_modules/.bin/isparta cover _mocha test/frontmatter.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherBiscardi/frontmatter-loader.git"
+  },
+  "keywords": [
+    "frontmatter",
+    "webpack",
+    "loader",
+    "markdown"
+  ],
+  "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristopherBiscardi/frontmatter-loader/issues"
+  },
+  "homepage": "https://github.com/ChristopherBiscardi/frontmatter-loader#readme",
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-stage-0": "^6.1.18",
+    "babel-register": "^6.2.0",
+    "chai": "^3.4.1",
+    "eslint": "^1.10.2",
+    "html-loader": "^0.4.0",
+    "isparta": "^4.0.0",
+    "json-loader": "^0.5.4",
+    "markdown-loader": "^0.1.7",
+    "memory-fs": "^0.3.0",
+    "mocha": "^2.3.4",
+    "null-loader": "^0.1.1",
+    "raw-loader": "^0.5.1",
+    "typographic-ellipses": "^1.0.11",
+    "typographic-quotes": "^1.2.1",
+    "typographic-single-spaces": "^1.0.2",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "front-matter": "^2.0.1"
+  }
+}
